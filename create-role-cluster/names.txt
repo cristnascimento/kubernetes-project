@@ -1,0 +1,36 @@
+masters.logger.k8s.cristnascimento.br
+
+arn:aws:iam::660013417910:instance-profile/masters.logger.k8s.cristnascimento.br
+
+EC2
+Limitado: Lista, Leitura, Gravação, Atribuição de tags (tagging)
+Todos os recursos
+ec2:ResourceTag/KubernetesCluster = logger.k8s.cristnascimento.br
+EC2 Auto Scaling
+Tela cheia: Leitura Limitado: Lista, Gravação
+Todos os recursos
+autoscaling:ResourceTag/KubernetesCluster = logger.k8s.cristnascimento.br
+Elastic Container Registry
+Tela cheia: Lista Limitado: Leitura
+Todos os recursos
+Nenhum
+ELB
+Tela cheia: Lista Limitado: Leitura, Gravação, Atribuição de tags (tagging)
+Todos os recursos
+Nenhum
+ELB v2
+Limitado: Leitura, Gravação, Atribuição de tags (tagging)
+Todos os recursos
+Nenhum
+IAM
+Limitado: Lista, Leitura
+Todos os recursos
+Nenhum
+Route 53
+Limitado: Lista, Gravação
+Vários
+Nenhum
+S3
+Limitado: Lista, Leitura, Gravação
+Vários
+Nenhum 
